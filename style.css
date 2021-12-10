@@ -1,0 +1,25 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.header{
+   background-color: rgb(25, 56, 97);
+   padding: 150px;
+}
+
+.title{
+   color: white
+}
+
+.title h1{
+
+}
+
+.nav ul{
+   float: right;
+}
+
+.nav li{
+}
