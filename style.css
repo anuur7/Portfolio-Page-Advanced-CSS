@@ -15,8 +15,10 @@
    color: white
 }
 
-.title h1{
-
+.my-picture{
+   width: 200px;
+   height: auto;
+   border-radius: 50%;
 }
 
 .nav ul{
