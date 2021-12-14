@@ -126,23 +126,68 @@
 }
 
 .footer{
-   padding:50px;
+   padding: 20px;
+   display: flex;
+   justify-content: space-evenly;
+   background-color: rgb(27, 63, 110);
 }
 
 .contact-card{
-   border: 2px solid black;
+   border: 2px solid rgb(27, 63, 110);
+   padding: 50px;
 }
 
 .contact-card h2{
    text-align: center;
    font-size: 30px;
-   text-shadow: 2px 2px gray;
+   text-shadow: 5px 2px black;
+   margin-top: -40px;
+   color: var(--white);
 }
 
 .contact-card ul{
    text-align: center;
    list-style: none;
+   margin-top: 20px;
+   color: white;
 }
+
+.contact-card a{
+   text-decoration: none;
+   color: white;
+}
+
+.contact-card a:hover{
+   color: orange;
+}
+
+.icons-card{
+   border: 2px solid rgb(27, 63, 110);;
+   padding: 50px;
+}
+
+.icons-card h2{
+   text-align: center;
+   font-size: 30px;
+   text-shadow: 5px 2px black;
+   margin-top: -40px;
+   color: var(--white);
+}
+
+.icons-card a{
+   font-size: 40px;
+   margin-left: 20px;
+   color: var(--white);
+}
+
+.icons{
+   margin-top: 20px;
+}
+
+.icons a:hover{
+   color: orange;
+}
+
 
 
 
