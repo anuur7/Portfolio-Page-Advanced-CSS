@@ -16,10 +16,18 @@
    top: 0;
 }
 
-.header h1{
+.header h1 a{
    color: var(--white);
    margin-left: 10px;
    text-shadow: 5px 3px black;
+}
+
+.header a{
+   text-decoration: none;
+}
+
+.header a:hover{
+   color: orange;
 }
 
 .nav{
