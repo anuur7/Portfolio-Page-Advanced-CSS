@@ -57,17 +57,14 @@
 
 .picture-intro{
    display: flex;
-   flex-direction: row;
    justify-content: space-evenly;
    background-color: rgb(25, 56, 97);
-   padding: 20px;
+   padding: 5vh 0vh 5vh 0vh;
 }
 
 .my-picture{
-   width: 300px;
+   width: 250px;
    border-radius: 50%;
-   margin-top: 80px;
-   float: left;
 }
 
 .my-picture:hover{
@@ -75,48 +72,63 @@
 }
 
 .intro h1 {
-   margin-top: 150px;
    font-size: 60px;
    color: var(--white);
    text-shadow: 6px 3px black;
+   margin-top: 5vh;
 }
 
 .intro h2{
    font-size: 30px;
    color: var(--white);
    text-shadow: 6px 3px black;
+   float: right;
 }
 
 .about{
-   margin: 30px 20px 0px 20px;
+   padding: 3vh 0vh 3vh 0vh;
+}
+
+.about-container{
    display: flex;
+   justify-content: space-evenly;
 }
 
 .sub-about h2{
-   font-size: 40px;
-   text-align: center;
-   text-shadow: 2px 2px gray;
+   font-size: 50px;
+   text-align: left;
+   margin-left: 430px;
+   text-shadow: 3px 3px gray;
 }
 
-.sub-about p{
-   font-size: 18px;
-   padding: 10px 150px 5px 200px;
+.about-bio p{
+   font-size: 17px;
+   padding: 0px 200px 0px 200px;
    line-height: 1.3;
    text-align: center;
-
+   margin-top: 3vh;
 }
 
 .graduation img{
-   width: 300px;
-   margin: 10px 50px 0px 0px;
+   width: 350px;
+   margin: -3vw 5vh 0vh 0vh;
 }
 
 .projects{
-   margin: 30px 0px 0px 0px;
+   background-color: lightgray;
+}
+
+.sub-projects h2{
+   font-size: 50px;
+   text-align: center;
+   text-shadow: 3px 3px gray;
+}
+
+.cards-container{
    display: flex;
    justify-content: space-evenly;
-   background-color: lightgray;
-   padding-bottom: 20px;
+   margin-top: 5vh;
+   padding-bottom: 5vh;
 }
 
 .card{
@@ -125,12 +137,12 @@
 
 .card h3{
    font-size: 30px;
-   text-align: center;
    text-shadow: 2px 2px gray;
+   text-align: center;
 }
 
 .link-image img{  
-   width: 350px;
+   width: 400px;
 }
 
 .link-image img:hover{
@@ -138,44 +150,45 @@
 }
 
 .link-image2 img{  
-   width: 350px;
-   height: 470px;
+   width: 400px;
+   height: 550px;
 }
 
 .link-image2 img:hover{
    transform: scale(1.3);
 }
 
-.contact{
-   padding: 20px;
+footer{
    display: flex;
    justify-content: space-evenly;
+   padding: 10vh 0vh 10vh 0vh;
+}
+
+.contact{
    background-color: rgb(27, 63, 110);
 }
 
 .contact-card{
    border: 2px solid rgb(27, 63, 110);
-   padding: 50px;
 }
 
 .contact-card h2{
    text-align: center;
-   font-size: 30px;
+   font-size: 40px;
    text-shadow: 5px 2px black;
-   margin-top: -40px;
    color: var(--white);
 }
 
-.contact-card ul{
+.email ul{
    text-align: center;
    list-style: none;
    margin-top: 20px;
-   color: white;
+   color: var(--white);
 }
 
-.contact-card a{
+.email a{
    text-decoration: none;
-   color: white;
+   color: var(--white);
 }
 
 .contact-card a:hover{
@@ -184,20 +197,18 @@
 
 .icons-card{
    border: 2px solid rgb(27, 63, 110);;
-   padding: 50px;
 }
 
 .icons-card h2{
    text-align: center;
-   font-size: 30px;
+   font-size: 40px;
    text-shadow: 5px 2px black;
-   margin-top: -40px;
    color: var(--white);
 }
 
 .icons-card a{
    font-size: 40px;
-   margin-left: 20px;
+   margin-left: 30px;
    color: var(--white);
 }
 
@@ -209,5 +220,20 @@
    color: var(--hover);
 }
 
-
-
+@media screen (min-width: 792px) and (max-width: 992px) {
+   .card {
+     width: 100%;
+   }
+   .my-picture{
+      width: 200px;
+   }
+ }
+ 
+ @media screen and (max-width: 768px) {
+    .header{
+       width: 100vw !important;
+    }
+   .card {
+     width: 100%;
+   }
+ }
