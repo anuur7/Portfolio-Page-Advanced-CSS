@@ -1,6 +1,8 @@
 :root{
    --white: white;
    --hover: orange;
+   --black: black;
+   --gray: gray;
 }
 
 *{
@@ -19,7 +21,7 @@
 .header h1 a{
    color: var(--white);
    margin-left: 10px;
-   text-shadow: 5px 3px black;
+   text-shadow: 5px 3px var(--black);;
 }
 
 .header a{
@@ -27,7 +29,7 @@
 }
 
 .header a:hover{
-   color: orange;
+   color: var(--hover);
 }
 
 .nav{
@@ -43,7 +45,7 @@
    display: inline;
    font-size: 25px;
    margin-left: 30px;
-   text-shadow: 5px 3px black;
+   text-shadow: 5px 3px var(--black);;
 }
 
 .nav a{
@@ -74,14 +76,14 @@
 .intro h1 {
    font-size: 60px;
    color: var(--white);
-   text-shadow: 6px 3px black;
+   text-shadow: 6px 3px var(--black);;
    margin-top: 5vh;
 }
 
 .intro h2{
    font-size: 30px;
    color: var(--white);
-   text-shadow: 6px 3px black;
+   text-shadow: 6px 3px var(--black);;
    float: right;
 }
 
@@ -98,7 +100,7 @@
    font-size: 50px;
    text-align: left;
    margin-left: 430px;
-   text-shadow: 3px 3px gray;
+   text-shadow: 3px 3px var(--gray);;
 }
 
 .about-bio p{
@@ -112,7 +114,7 @@
 .graduation img{
    width: 300px;
    margin: -3vw 14vh 0vh 0vh;
-   box-shadow: 7px 5px black;
+   box-shadow: 7px 5px var(--black);;
    transform: rotate(5deg);
 }
 
@@ -127,7 +129,7 @@
 .sub-projects h2{
    font-size: 50px;
    text-align: center;
-   text-shadow: 3px 3px gray;
+   text-shadow: 3px 3px var(--gray);;
 }
 
 .cards-container{
@@ -143,7 +145,7 @@
 
 .card h3{
    font-size: 30px;
-   text-shadow: 2px 2px gray;
+   text-shadow: 2px 2px var(--gray);;
    text-align: center;
 }
 
@@ -181,7 +183,7 @@ footer{
 .contact-card h2{
    text-align: center;
    font-size: 40px;
-   text-shadow: 5px 2px black;
+   text-shadow: 5px 2px var(--black);;
    color: var(--white);
 }
 
@@ -208,7 +210,7 @@ footer{
 .icons-card h2{
    text-align: center;
    font-size: 40px;
-   text-shadow: 5px 2px black;
+   text-shadow: 5px 2px var(--black);;
    color: var(--white);
 }
 
