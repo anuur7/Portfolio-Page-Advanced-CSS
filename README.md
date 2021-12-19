@@ -1,9 +1,14 @@
 # Portfolio-Page-Advanced-CSS
 
-For this assignment i have created my first web application from scratch by applying the core skills i've recently learned.
+For this assignment i have created my first Portfolio web application from scratch by applying the core skills i've recently learned as a portfolio of work can showcase your skills and talents to future employers looking to fill a full-time position.
 
+I started off by organizing to make sure I was following the semantic structure of the HTML elements to make it more accessible. 
 
+I decided to go for my picture and name just below my header and used display flex to space it evenly. Also when clicked on the navigation bars in the header the UI scrolls to the corresponding section.
 
+I used display flex space evenly on the about me, projects and contact section. Put some box shadow on the image in the about me section and used borders for the projects so i could move them around more easily.
+
+In the contact me section i linked my email and github accounts to the a tags and also when you click on the social media icons it will take you to the website.
 
 
 
