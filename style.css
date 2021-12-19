@@ -226,20 +226,150 @@ footer{
    color: var(--hover);
 }
 
-@media screen (min-width: 792px) and (max-width: 992px) {
-   .card {
-     width: 100%;
+@media screen and (max-width: 980px) {
+   .sub-about h2{
+      font-size: 40px;
+      text-align: left;
    }
-   .my-picture{
-      width: 200px;
+   .about-bio p{
+      text-align: center;
+      padding: 0px 50px 20px 50px;
+   }
+   .graduation img{
+      width: 220px;
+      margin: 2vh 5vh 0vh 0vh;
+   }
+   .sub-projects h2{
+      font-size: 40px;
+   }
+   .link-image img{
+      width: 350px;
+   }
+
+   .link-image2 img{
+      width: 350px;
+      height: 485px;
    }
  }
  
- @media screen and (max-width: 768px) {
-    .header{
-       width: 100vw !important;
+ @media screen and (max-width: 700px) {
+    .header h1{
+      font-size: 30px;
     }
-   .card {
-     width: 100%;
+    .nav li{
+       font-size: 22px;
+    }
+    .my-picture{
+       width: 170px;
+    }
+   .intro h1{
+     font-size: 40px;
+   }
+   .intro h2{
+      font-size: 20px;
+   }
+   .sub-about h2{
+      font-size: 35px;
+      margin-left: 27vw;
+   }
+   .about-bio p{
+      font-size: 15px;
+      text-align: center;
+      padding: 0px 50px 0px 50px;
+   }
+   .graduation img{
+      width: 200px;
+      margin: 5vh 5vh 0vh 0vh;
+   }
+   .sub-projects h2{
+      font-size: 35px;
+   }
+   .card h3{
+      font-size: 25px;
+   }
+   .link-image img{
+      width: 290px;
+   }
+
+   .link-image2 img{
+      width: 290px;
+      height: 400px;
+   }
+   .contact-card h2{
+      font-size: 30px;
+   }
+   .email li{
+      font-size: 11px;
+   }
+   .icons-card h2{
+      font-size: 30px;
+   }
+   
+   .icons-card a{
+      font-size: 25px;
+   }
+ }
+
+ @media screen and (max-width: 550px){
+    .header{
+       margin-right: -20px;
+    }
+    .picture-intro{
+       margin-right: -20px;
+    }
+    .my-picture{
+      width: 150px;
+   }
+   .intro h1{
+      font-size: 35px;
+    }
+    .intro h2{
+       font-size: 17px;
+    }
+    .sub-about h2{
+      font-size: 30px;
+      margin-left: 27vw;
+   }
+   .about-bio p{
+      font-size: 12px;
+      text-align: center;
+      padding: 0px 5px 0px 5px;
+   }
+   .graduation img{
+      width: 130px;
+      margin: 3vh 2vh 0vh 0vh;
+   }
+   .projects{
+      margin-right: -20px;
+   }
+   .sub-projects h2{
+      font-size: 30px;
+   }
+   .card h3{
+      font-size: 20px;
+   }
+   .link-image img{
+      width: 240px;
+   }
+
+   .link-image2 img{
+      width: 240px;
+      height: 330px;
+   }
+   footer{
+      margin-right: -20px;
+   }
+   .contact-card h2{
+      font-size: 30px;
+   }
+   .email li{
+      font-size: 11px;
+   }
+   .icons-card h2{
+      font-size: 30px;
+   }
+   
+   .icons-card a{
+      font-size: 25px;
    }
  }
