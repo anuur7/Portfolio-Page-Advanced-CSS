@@ -21,7 +21,7 @@
 .header h1 a{
    color: var(--white);
    margin-left: 10px;
-   text-shadow: 5px 3px var(--black);;
+   text-shadow: 5px 3px var(--black);
 }
 
 .header a{
@@ -45,7 +45,7 @@
    display: inline;
    font-size: 25px;
    margin-left: 30px;
-   text-shadow: 5px 3px var(--black);;
+   text-shadow: 5px 3px var(--black);
 }
 
 .nav a{
@@ -100,7 +100,7 @@
    font-size: 50px;
    text-align: left;
    margin-left: 430px;
-   text-shadow: 3px 3px var(--gray);;
+   text-shadow: 3px 3px var(--gray);
 }
 
 .about-bio p{
@@ -114,7 +114,7 @@
 .graduation img{
    width: 300px;
    margin: -3vw 14vh 0vh 0vh;
-   box-shadow: 7px 5px var(--black);;
+   box-shadow: 7px 5px var(--black);
    transform: rotate(5deg);
 }
 
@@ -129,7 +129,7 @@
 .sub-projects h2{
    font-size: 50px;
    text-align: center;
-   text-shadow: 3px 3px var(--gray);;
+   text-shadow: 3px 3px var(--gray);
 }
 
 .cards-container{
@@ -145,7 +145,7 @@
 
 .card h3{
    font-size: 30px;
-   text-shadow: 2px 2px var(--gray);;
+   text-shadow: 2px 2px var(--gray);
    text-align: center;
 }
 
@@ -380,6 +380,9 @@ footer{
    .header h1{
      font-size: 18px;
    }
+   .header h1 a{
+      text-shadow: 2px 3px var(--black);
+   }
    .nav ul{
       margin-top: -20px;
       margin-right: 3vh;
@@ -387,6 +390,7 @@ footer{
    .nav li{
       font-size: 13px;
       margin-top: 5vh;
+      text-shadow: 2.5px 2.5px var(--black);
    }
    .my-picture{
       width: 110px;
@@ -394,15 +398,18 @@ footer{
   .intro h1{
     font-size: 20px;
     margin-right: 6vw;
+    text-shadow: 2px 2.5px var(--black);
   }
   .intro h2{
      font-size: 10px;
      margin-right: 6vw;
+     text-shadow: 2px 2.5px var(--black);
   }
   .sub-about h2{
      font-size: 25px;
      margin-left: 35vw;
      margin-top: -2vh;
+     text-shadow: 2px 2px var(--gray);
   }
   .about-container{
    display: flex;
@@ -420,6 +427,7 @@ footer{
   }
   .sub-projects h2{
      font-size: 25px;
+     text-shadow: 2px 2px var(--gray);
   }
   .cards-container{
      display: flex;
@@ -431,6 +439,7 @@ footer{
   .card h3{
      font-size: 15px;
      margin-left: -70px;
+     text-shadow: 1px 1.5px var(--gray);
   }
   .link-image img{
      width: 220px;
@@ -448,6 +457,7 @@ footer{
   }
   .contact-card h2{
      font-size: 21px;
+     text-shadow: 3px 3px var(--black);
   }
   .email li{
      font-size: 9px;
@@ -457,6 +467,7 @@ footer{
 }
   .icons-card h2{
      font-size: 21px;
+     text-shadow: 3px 3px var(--black);
   }
   
   .icons-card a{
