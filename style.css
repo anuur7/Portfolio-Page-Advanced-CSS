@@ -409,7 +409,7 @@ footer{
      font-size: 25px;
      margin-left: 35vw;
      margin-top: -2vh;
-     text-shadow: 2px 2px var(--gray);
+     text-shadow: 1px 1.3px var(--gray);
   }
   .about-container{
    display: flex;
@@ -427,7 +427,7 @@ footer{
   }
   .sub-projects h2{
      font-size: 25px;
-     text-shadow: 2px 2px var(--gray);
+     text-shadow: 1px 1.3px var(--gray);
   }
   .cards-container{
      display: flex;
