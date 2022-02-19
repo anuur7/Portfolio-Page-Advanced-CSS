@@ -147,10 +147,11 @@
    font-size: 30px;
    text-shadow: 2px 2px var(--gray);
    text-align: center;
+   margin-bottom: 2vh;
 }
 
 .link-image img{  
-   width: 400px;
+   width: 500px;
 }
 
 .link-image img:hover{
@@ -158,8 +159,8 @@
 }
 
 .link-image2 img{  
-   width: 400px;
-   height: 550px;
+   width: 500px;
+   height: 280px;
 }
 
 .link-image2 img:hover{
