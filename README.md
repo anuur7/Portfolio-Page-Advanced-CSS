@@ -1,5 +1,7 @@
 # Portfolio-Page-Advanced-CSS
 
+This is my newly updated portfolio with added homework/projects. I have added links for my LinkedIn profile and a link for my resume.
+
 For this assignment i have created my first Portfolio web application from scratch by applying the core skills i've recently learned as a portfolio of work can showcase your skills and talents to future employers looking to fill a full-time position.
 
 I started off by organizing to make sure I was following the semantic structure of the HTML elements to make it more accessible. 
@@ -14,4 +16,4 @@ In the contact me section i linked my email and github accounts to the a tags an
 
 Deployed Application URL: https://anuur7.github.io/Portfolio-Page-Advanced-CSS/
 
-![alt text](images/Portfolio.png)
+![alt text](./images/portfolio.png)
