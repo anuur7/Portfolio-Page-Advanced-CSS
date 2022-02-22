@@ -16,7 +16,7 @@ In the contact me section i linked my email and github accounts to the a tags an
 
 Deployed Application URL: https://anuur7.github.io/Portfolio-Page-Advanced-CSS/
 
-![alt text](./images/portfolio.png)
+![alt text](images/portfolio.png)
 
 ![alt text](images/weatherapp.png)
 
