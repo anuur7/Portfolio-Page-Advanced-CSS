@@ -15,9 +15,15 @@ In the contact me section i linked my email and github accounts to the a tags an
 
 
 Deployed Application URL: https://anuur7.github.io/Portfolio-Page-Advanced-CSS/
+Deployed Application URL: https://anuur7.github.io/Weather-Dashboard-Project/
+Deployed Application URL: https://anuur7.github.io/JS-Code-Quiz-Project/
+Deployed Application URL: https://anuur7.github.io/AHA-5-Food-/
+
 
 ![alt text](images/portfoliohw.png)
 
 ![alt text](images/weatherapp.png)
 
 ![alt text](images/quiz.png)
+
+![alt text](images/Project1.png)
