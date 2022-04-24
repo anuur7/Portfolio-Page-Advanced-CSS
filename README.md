@@ -14,10 +14,14 @@ In the contact me section i linked my email and github accounts to the a tags an
 
 
 
-Deployed Application URL: https://anuur7.github.io/Portfolio-Page-Advanced-CSS/
-Deployed Application URL: https://anuur7.github.io/Weather-Dashboard-Project/
-Deployed Application URL: https://anuur7.github.io/JS-Code-Quiz-Project/
-Deployed Application URL: https://anuur7.github.io/AHA-5-Food-/
+## Deployed Application URLs: 
+- https://anuur7.github.io/Portfolio-Page-Advanced-CSS/
+- https://anuur7.github.io/Weather-Dashboard-Project/
+- https://anuur7.github.io/JS-Code-Quiz-Project/
+- https://anuur7.github.io/AHA-5-Food-/
+- https://aqueous-brook-09754.herokuapp.com/
+- https://secure-woodland-21895.herokuapp.com/notes
+
 
 
 ![alt text](images/portfoliohw.png)
@@ -27,3 +31,8 @@ Deployed Application URL: https://anuur7.github.io/AHA-5-Food-/
 ![alt text](images/quiz.png)
 
 ![alt text](images/Project1.png)
+
+![alt text](images/project2.png)
+
+![alt text](images/notes.png)
+ 
