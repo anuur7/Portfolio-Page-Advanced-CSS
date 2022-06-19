@@ -24,7 +24,7 @@ In the contact me section i linked my email and github accounts to the a tags an
 
 
 
-![alt text](images/portfolio-screenshot.png)
+![alt text](images/portfolio.png)
 
 ![alt text](images/weatherapp.png)
 
